@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Shopping-Website--Community</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script src="https://kit.fontawesome.com/ca86787c55.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="bg-[#FFFFFF]">
+    <header>
+        <nav class="bg-white fixed w-full z-20 top-0 start-0     ">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="./img/logo.svg" class="h-8" alt="Flowbite Logo">
+                </a>
+                <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+
+                    <button type="button"
+                        class="text-white bg-black hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center">
+                        SIGN UP</button>
+                    <button data-collapse-toggle="navbar-sticky" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-sticky" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                    <ul
+                        class="flex flex-col p-4 md:p-0 mt-4 font-medium rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 ">
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 text-black rounded-sm md:bg-transparent md:text-black md:p-0 md:dark:text-black"
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 text-gray-900 rounded-sm md:hover:bg-transparent md:p-0 dark:text-black">About</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 text-gray-900 rounded-sm md:hover:bg-transparent md:p-0 dark:text-black">Services</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 text-gray-900 rounded-sm md:hover:bg-transparent md:p-0 dark:text-black">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="bg-gray-100 rounded-b-[2rem] overflow-hidden">
+            <div
+                class="max-w-7xl mx-auto px-6 py-16 flex flex-col-reverse lg:flex-row items-center justify-between gap-8">
+
+                <div class="max-w-xl text-center lg:text-left">
+                    <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight space-y-2">
+                        <div class="bg-white inline-block px-2">LET’S</div><br />
+                        <div class="bg-white inline-block px-2">EXPLORE</div><br />
+                        <span class="bg-yellow-300 inline-block px-2">UNIQUE</span><br />
+                        <div class="bg-white inline-block px-2">CLOTHES.</div>
+                    </h1>
+                    <p class="mt-6 text-lg text-gray-700">Live for Influential and Innovative fashion!</p>
+                    <button
+                        class="mt-6 bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition duration-300">Shop
+                        Now</button>
+                </div>
+
+                <div class="w-full lg:w-1/2">
+                    <img src="./img/hero-img.svg" alt="Fashion Model" class="w-full object-contain" />
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <section class="bg-[#EBD96B] py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-wrap justify-center items-center gap-8 sm:gap-12">
+                <img src="./img/hms-img.svg" alt="H&M" class="h-10 sm:h-12 object-contain" />
+                <img src="./img/obey-img.svg" alt="Obey" class="h-10 sm:h-12 object-contain" />
+                <img src="./img/shopify-img.svg" alt="Shopify" class="h-10 sm:h-12 object-contain" />
+                <img src="./img/lacoste-img.svg" alt="Lacoste" class="h-10 sm:h-12 object-contain" />
+                <img src="./img/levis-img.svg" alt="Levi's" class="h-10 sm:h-12 object-contain" />
+                <img src="./img/amazon-img.svg" alt="Amazon" class="h-10 sm:h-12 object-contain" />
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="py-10">
+            <div class="relative inline-block pb-16">
+                <h1 class="text-4xl font-extrabold tracking-wide text-black relative z-10 pb-4 pl-4">
+                 NEW ARRIVALS
+                </h1>
+                <div class="absolute bottom-18 left-[187px] w-[40%] b-[11px] h-8 bg-yellow-300 rounded-full rotate-[-5deg] z-0"></div>
+              </div>
+              
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 max-w-7xl mx-auto">
+
+                <div class="bg-white overflow-hidden">
+                    <img src="./img/hoodie-img.svg" alt="Hoodies & Sweatshirt" class="w-full object-cover" />
+                    <div class="p-4">
+                        <h3 class="text-3xl font-semibold text-gray-800">Hoodies & Sweatshirt</h3>
+                        <a href="#"
+                            class="text-2xl text-gray-600 hover:underline flex items-center justify-left justify-between gap-1 mt-2">
+                            Explore Now!
+                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white overflow-hidden">
+                    <img src="./img/coats-parkas-img.svg" alt="Coats & Parkas" class="w-full object-cover" />
+                    <div class="p-4">
+                        <h3 class="text-3xl font-semibold text-gray-800">Coats & Parkas</h3>
+                        <a href="#"
+                            class="text-2xl text-gray-600 hover:underline flex items-center justify-left justify-between gap-1 mt-2">
+                            Explore Now!
+                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white overflow-hidden">
+                    <img src="./img/t-shirt-img.svg" alt="Tees & T-Shirt" class="w-full object-cover" />
+                    <div class="p-4">
+                        <h3 class="text-3xl font-semibold text-gray-800">Tees & T-Shirt</h3>
+                        <a href="#"
+                            class="text-2xl text-gray-600 hover:underline flex items-center justify-left justify-between gap-1 mt-2">
+                            Explore Now!
+                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="bg-yellow-300 min-h-screen flex flex-col md:flex-row items-center justify-center p-6">
+            <div class="w-full md:w-1/2 flex justify-center mb-6 md:mb-0">
+              <img src="./img/image 12.png" alt="Payday Banner" class="w-80 md:w-auto max-w-full h-auto">
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-left space-y-4 px-4">
+              <div class="inline-block bg-white px-4 py-1 text-black font-black text-7xl">
+                PAYDAY
+              </div>
+              <div class="text-7xl font-black text-black">SALE NOW</div>
+              <p class="font-medium text-2xl text-black">
+                Spend minimal $100 get 30% off<br/>
+                voucher code for your next purchase
+              </p>
+              <p class="text-black font-bold text-2xl">1 June - 10 June 2021</p>
+              <p class="text-black text-xl font-bold">*Terms & Conditions apply</p>
+              <button class="bg-black text-1xl font-bold text-white px-6 py-3 rounded hover:bg-gray-800 transition">
+                SHOP NOW
+              </button>
+            </div>
+          </div>
+    </section>
+    <section>
+        <div class=" min-h-screen px-4 py-8">
+            <div class="relative inline-block pb-16">
+                <h1 class="text-4xl font-extrabold tracking-wide text-black relative z-10 pb-4">
+                    Young’s Favourite
+                </h1>
+                <div class="absolute bottom-18 left-[187px] w-[40%] b-[11px] h-8 bg-yellow-300 rounded-full rotate-[-5deg] z-0"></div>
+              </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div class=" rounded-2xl overflow-hidden">
+                <img src="./img/girls-smiling-img.svg" 
+                     alt="Friends with sunglasses"
+                     class="w-full h-[450px] object-cover" />
+                     <div class="py-4">
+                        <h3 class="text-3xl font-semibold text-gray-800">Trending on instagram</h3>
+                        <a href="#"
+                            class="text-2xl text-gray-600 hover:underline flex items-center justify-left justify-between gap-1 mt-2">
+                            Explore Now!
+                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                        </a>
+                    </div>
+              </div>
+              <div class=" rounded-2xl overflow-hidden">
+                <img src="./img/girl-posing-img.svg" 
+                     alt="Girl with glasses"
+                     class="w-full h-[450px] object-cover" />
+                     <div class="py-4">
+                        <h3 class="text-3xl font-semibold text-gray-800">All Under $40</h3>
+                        <a href="#"
+                            class="text-2xl text-gray-600 hover:underline flex items-center justify-left justify-between gap-1 mt-2">
+                            Explore Now!
+                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                        </a>
+                    </div>
+              </div>
+          
+            </div>
+        </div>
+    </section>
+    <section class="bg-white text-gray-900 px-6 py-12 font-sans">
+
+        <div class="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-12">
+      
+            <!-- LEFT SECTION -->
+            <div class="md:w-1/2 text-center md:text-left space-y-6">
+              <h2 class="text-3xl md:text-4xl font-extrabold uppercase">
+                Download App &<br />Get The Voucher!
+              </h2>
+              <p class="text-gray-600 text-base">
+                Get 30% off for first transaction using<br />
+                Rondovision mobile app for now.
+              </p>
+              
+              <!-- Store Buttons -->
+              <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+                <a href="#">
+                  <img
+                    src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                    alt="Download on App Store"
+                    class="h-12"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                    alt="Get it on Google Play"
+                    class="h-12"
+                  />
+                </a>
+              </div>
+            </div>
+             <div class="md:w-1/2 relative flex justify-center">
+              <div class="absolute top-[52px] left-6 "><img src="./img/large-ellipse.png" alt=""></div>
+              <div class="absolute top-[104px] -right-4"><img src="./img/medium-ellipse.png" alt="" class=" w-[87%] "></div>
+              <div class="absolute top-[166px] right-8"><img src="./img/small-ellipse.png" alt="" class=" w-[80%] "></div>     
+              <div class="absolute w-10 top-0 left-0 bg-yellow-300"></div> 
+              <img
+                src="./img/Mobile app (2).svg"
+                alt="App UI"
+                class="w-72 md:w-96 rounded-3xl shadow-2xl z-10"
+              />
+            </div>
+          </div>
+      
+    </section>
+</body>
+
+</html>
